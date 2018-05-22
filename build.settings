@@ -1,0 +1,22 @@
+settings = {
+	orientation =
+	{
+		default = "portrait",
+		supported = { "portrait" },
+	},
+	android =
+    {
+        supportsScreens =
+        {
+            smallScreens  = true,
+            normalScreens = true,
+            largeScreens  = true,
+            xlargeScreens = true,
+        },
+        googlePlayGamesAppId = "884178750735",
+    },
+    build =
+    {
+        neverStripDebugInfo = true
+    },
+}
